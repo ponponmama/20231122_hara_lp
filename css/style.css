@@ -1,0 +1,811 @@
+* {
+    margin: 0;
+    border: 0;
+    max-width: 1200px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: rgb(122, 121, 121);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+/*logo親要素*/
+.estra {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/*estraのlogo*/
+.h-estra {
+    width: 20%;
+}
+
+.nav {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/*navのul*/
+.list-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+/*navのli*/
+.l-item {
+    list-style-type: none;
+    margin-right: 4%;
+}
+
+
+/*a　navのリスト*/
+.menu-news,
+.menu-about,
+.menu-service,
+.menu-blog,
+.menu-company,
+.menu-contact {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: rgb(122, 121, 121);
+}
+
+.top-img {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 10vh;
+}
+
+.p-commit1 {
+    font-weight: bolder;
+    font-size: 3.2em;
+    position: absolute;
+    left: 25%;
+    top: 8%;
+}
+
+.p-commit2 {
+    position: absolute;
+    font-size: 1.1em;
+    font-weight: 900;
+    left: 25%;
+    top: 30vh;
+}
+
+.p-commit3 {
+    position: absolute;
+    font-size: 0.9em;
+    left: 25%;
+    top: 35vh;
+    font-weight: 500;
+}
+
+.c-img {
+    width: 50%;
+}
+
+
+/*img画像*/
+.b-commit1 {
+    width: 60%;
+    right: 0;
+}
+
+
+
+/*新着情報＆newｓの親要素*/
+.news {
+    width: 100%;
+    margin-top: 15%;
+}
+
+/*miniピンクと新着情報グレーの親要素*/
+.news-text {
+    margin-left: 20%;
+}
+
+/*News*/
+.mini-news {
+    font-size: 0.9em;
+}
+
+/*新着情報*/
+.news-text1 {
+    margin-top: 1%;
+    height: 10vh;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+/*newsのul*/
+.news-topic {
+    width: fit-content;
+    font-size: 0.8em;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 0;
+}
+
+/*ボタンピンク*/
+.btn {
+    border-radius: 20vw;
+    display: inline-block;
+    width: 7vw;
+    padding: 0.2vh;
+    box-sizing: border-box;
+    background-color: rgb(199, 21, 131);
+    text-decoration: none;
+    text-align: center;
+    margin: 1vw 3vh;
+}
+
+/*newsのli*/
+.n-list1,
+.n-list2,
+.n-list3,
+.n-list4,
+.n-list5 {
+    width: 60vw;
+    border-bottom: 1px solid gray;
+    list-style: none;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+/*newsのliのa*/
+.s-news1,
+.s-news2,
+.s-news3,
+.s-news4,
+.s-news5 {
+    text-decoration: none;
+    color: white;
+}
+
+/*newsの上下太いライン*/
+.n-list0 {
+    width: 60vw;
+    border-bottom: 2px solid rgb(110, 109, 109);
+}
+
+.n-list6 {
+    width: 60vw;
+    border-top: 2px solid rgb(110, 109, 109);
+    margin-top: 1.5%;
+}
+
+/*about内全ての親要素*/
+.about {
+    height: 65vh;
+    background-color: rgb(247, 245, 245);
+    margin-top: 8vh;
+    display: block;
+}
+
+/*aboutの文字ピンク*/
+.mini-about {
+    font-size: 0.9em;
+    text-align: center;
+    transform: translateY(2vh);
+}
+
+/*aboutの文字グレーTachnology × caoaching*/
+.about-text1 {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 7vh;
+    transform: translateY(2vh);
+}
+
+/*aboutのimgの親要素*/
+.love {
+    width: 30%;
+    display: flex;
+}
+
+/*aboutのimg*/
+.b-love {
+    width: 100%;
+}
+
+/*aboutテキスト文字の親要素*/
+.about-text2 {
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    box-sizing: border-box;
+}
+
+/*aboutテキスト*/
+.about-estra1 {
+    width: 30%;
+    line-height: 1.5em;
+}
+
+.service1 {
+    display: block;
+    margin-top: 5%;
+}
+
+/*ミニピンク見出しservice*/
+.mini-service {
+    font-size: 0.9em;
+    margin-left: 10%;
+}
+
+/*見出しグレーservice*/
+.service-text {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+}
+/*教育事業SVG*/
+.service2 {
+    width: 100%;
+    height: 45%;
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+}
+
+/*sample画像right大*/
+.i-sample1 {
+    width: 450px;
+    height: 300px;
+    background-color: rgb(199, 21, 131);
+    grid-area: 1 / 1 / 3 / 2;
+    display: block;
+    box-sizing: border-box;
+}
+
+.sample1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 7%;
+    left: 35%;
+}
+
+.sample2 {
+    width: auto;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    margin-top: 4%;
+    color: white;
+}
+
+.sample3 {
+    width: 32%;
+    height: 12%;
+    position: absolute;
+    font-weight: 200;
+    font-size: 0.9em;
+    left: 14%;
+    margin-top: 7%;
+    color: white;
+}
+
+.i-sample2 {
+    width: 450px;
+    height: 150px;
+    background-color: rgb(116, 55, 92);
+    grid-area: 1 / 2 / 2 / 3;
+    display: block;
+    box-sizing: border-box;
+}
+
+.sample4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10%;
+    right: -5%;
+}
+
+.sample5 {
+    width: auto;
+    font-weight: 600;
+    position: absolute;
+    right: 30%;
+    margin-top: -8%;
+    color: white;
+}
+
+.sample6 {
+    width: 24%;
+    height: 25%;
+    position: absolute;
+    font-weight: 200;
+    font-size: 0.9em;
+    right: 14%;
+    margin-top: -5%;
+    color: white;
+}
+
+.i-sample3 {
+    width: 450px;
+    height: 150px;
+    background-color: rgb(88, 52, 74);
+    grid-area: 2 / 2 / 3 / 3;
+    box-sizing: border-box;
+}
+
+.sample4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10%;
+    right: -5%;
+}
+
+.sample5 {
+    width: auto;
+    font-weight: 600;
+    position: absolute;
+    right: 30%;
+    margin-top: -8%;
+    color: white;
+}
+
+.sample6 {
+    width: 24%;
+    height: 25%;
+    position: absolute;
+    font-weight: 200;
+    font-size: 0.9em;
+    right: 14%;
+    margin-top: -5%;
+    color: white;
+}
+
+/*text-blogの親要素*/
+.blog {
+    width: 100%;
+    height: 95vh;
+    background-color: rgb(247, 245, 245);
+    margin-top: 10%;
+    display: block;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+
+/*見出しピンクblog*/
+.mini-blog {
+    height: 5vh;
+    font-size: 0.9em;
+    margin-left: 10%;
+    transform: translateY(4vh);
+}
+
+/*見出しグレーblog*/
+.text-blog {
+    height: 15vh;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-left: 10%;
+    transform: translateY(3vh);
+}
+
+.blog-list {
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.blog-A {
+    width: 280px;
+    height: 300px;
+    background-color: white;
+    grid-area: 1 / 1 / 2 / 2;
+    border-radius: 12px;
+}
+
+.left {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    position: relative;
+}
+
+.pink-box1 {
+    width: 100px;
+    height: 200px;
+    border-radius: 12px;
+    position: absolute;
+    transform: translateY(-93.5%);
+}
+
+.pink-blog1 {
+    width: 75px;
+    height: 34px;
+    background-color: rgb(199, 21, 131);
+    border-top-left-radius: 12px;
+    color: wheat;
+}
+
+.left-text {
+    width: 80%;
+    font-size: 0.9em;
+    font-weight: 700;
+    margin: 7% auto auto auto;
+}
+
+.coachtech-A {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.coachtech1 {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.coachtech2 {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.blog-B {
+    width: 280px;
+    height: 300px;
+    background-color: white;
+    grid-area: 1 / 2 / 2 / 3;
+    border-radius: 12px;
+}
+
+.middle {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.pink-box2 {
+    width: 100px;
+    height: 200px;
+    border-radius: 12px;
+    position: absolute;
+    transform: translateY(-93.5%);
+}
+
+.pink-blog2 {
+    width: 75px;
+    height: 34px;
+    background-color: rgb(199, 21, 131);
+    border-top-left-radius: 12px;
+    color: wheat;
+}
+
+.middle-text {
+    width: 80%;
+    font-size: 0.9em;
+    font-weight: 700;
+    margin: 7% auto auto auto;
+}
+
+.coachtech-B {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.coachtech3 {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.coachtech4 {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.blog-C {
+    width: 280px;
+    height: 300px;
+    background-color: white;
+    grid-area: 1 / 3 / 2 / 4;
+    border-radius: 12px;
+}
+
+.right {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.pink-box3 {
+    width: 100px;
+    height: 200px;
+    border-radius: 12px;
+    position: absolute;
+    transform: translateY(-93.5%);
+}
+
+.pink-blog3 {
+    width: 75px;
+    height: 34px;
+    background-color: rgb(199, 21, 131);
+    border-top-left-radius: 12px;
+    color: wheat;
+}
+
+.right-text {
+    width: 80%;
+    font-size: 0.9em;
+    font-weight: 700;
+    margin: 7% auto auto auto;
+}
+
+.coachtech-C {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.coachtech5 {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.coachtech6 {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.list-page {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 5%;
+
+}
+
+.page-list {
+    margin-top: -7%;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid rgb(199, 21, 131);
+    color: rgb(199, 21, 131);
+    border-radius: 30px;
+    font-size: 0.9em;
+    font-weight: 700;
+} 
+
+.page-list:hover {
+    background: rgb(199, 21, 131);
+    color: white;
+}
+
+.company-text {
+    height: 12vh;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/*ミニピンク見出しCompany*/
+.mini-company {
+    height: 32%;
+    font-size: 0.9em
+    
+    
+}
+
+/*見出しグレーservice*/
+.company-text {
+    font-size: 1.1em;
+    font-weight: 600;
+    top: 5%;
+    margin-left: 20%;
+}
+
+.table-company {
+    display: flex;
+    justify-content: center;
+}
+
+.c-overview {
+    font-size: 0.8em;
+    font-weight: 600;
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 10%;
+}
+
+.c-overview th,
+.c-overview td {
+    border: 1px solid #b3b2b2;
+    padding: 15px;
+    text-align: left;
+}
+
+.c-overview th {
+    font-weight: 700;
+    background-color: #ccc6c6;
+}
+
+.recruit {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 10%;
+    
+}
+
+.recruitment {
+    width: 50%;
+    height: 50%;
+    background-image: url(../img/recruit.png);
+    text-align: center;
+    
+}
+
+.a-recruitment{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.emp-interview {
+    width: 50%;
+    height: 50%;
+    background-image: url(../img/interview.png);
+    text-align: center;
+}
+
+.a-interview {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.form {
+    display: block;
+    width: 100%;
+    height: 30vh;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.p-form {
+    width: 100%;
+    height: 4vh;
+
+}
+
+.form-btn {
+    top: 26%;
+    display: block;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+
+
+.btn-line {
+    position: absolute;
+    top: -23%;
+    left: 50%;
+    background: rgb(199, 21, 131);
+    width: 2px;
+    height: 20%;
+    transform: translateX();
+    bottom: 5%;
+}
+
+.f-btn {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(90deg, rgb(199, 21, 131) 50%, rgb(141, 12, 92) 100%);
+    border: 2px solid rgba(199, 21, 131, 0);
+    color: white;
+    border-radius: 30px;
+    font-size: 0.9em;
+    font-weight: 700;
+    box-shadow: 0px 3px 0px 3px rgb(138, 15, 91);
+    
+}
+ 
+.f-btn::before {
+content: "";
+position: absolute;
+top: 50%;
+left: 15px;
+background: url(../img/mailicon.svg) no-repeat;
+background-size: cover;
+width: 30px;
+height: 30px;
+transform: translateY(-50%);
+}
+
+.f-btn:hover {
+    background: rgb(247, 186, 224);
+    color: rgb(199, 21, 131);
+    background-image: none;
+}
+ 
+.maili-i {
+    background-color: rgb(153, 17, 101);
+}
+
+.small {
+    font-weight: 500;
+}
+
+
+/*top二行目の太文字、style900*/
+.p-commit2,
+.recruitment,
+.emp-interview {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*飾り文字*/
+.p-commit1,
+.s-commit1,
+.mini-news,
+.mini-about,
+.mini-service,
+.mini-blog,
+.mini-company {
+    font-family: 'Indie Flower';
+}
+
+/*飾り文字のピンク*/
+.p-commit1,
+.p-commit2,
+.mini-news,
+.mini-about,
+.mini-service,
+.mini-blog,
+.mini-company {
+    color: rgb(199, 21, 131);
+}
+
+/*飾り文字キスト水色大小*/
+.s-commit1,
+.s-commit2 {
+    color: rgb(5, 155, 155);
+}
+
+/*見出しグレー*/
+.news-text1,
+.about-text1,
+.service-text,
+.text-blog,
+.company-text {
+    color: rgb(104, 102, 102);
+}
+
