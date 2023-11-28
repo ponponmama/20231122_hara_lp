@@ -1,24 +1,22 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     border: 0;
-    max-width: 1200px;
+    max-width: 100%;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     color: rgb(122, 121, 121);
+    box-sizing: border-box;
 }
 
 header {
     width: 100%;
     display: flex;
-    overflow: hidden;
 }
 
-/*logo親要素*/
 .estra {
     width: 50%;
     box-sizing: border-box;
 }
 
-/*estraのlogo*/
 .h-estra {
     width: 20%;
 }
@@ -28,21 +26,17 @@ header {
     box-sizing: border-box;
 }
 
-/*navのul*/
 .list-menu {
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
 }
 
-/*navのli*/
 .l-item {
     list-style-type: none;
-    margin-right: 4%;
+    margin-right: 6%;
 }
 
-
-/*a　navのリスト*/
 .menu-news,
 .menu-about,
 .menu-service,
@@ -59,7 +53,7 @@ header {
     position: relative;
     width: 100%;
     height: auto;
-    top: 10vh;
+    top: 10%;
 }
 
 .p-commit1 {
@@ -75,14 +69,14 @@ header {
     font-size: 1.1em;
     font-weight: 900;
     left: 25%;
-    top: 30vh;
+    top: 42%;
 }
 
 .p-commit3 {
     position: absolute;
     font-size: 0.9em;
     left: 25%;
-    top: 35vh;
+    top: 50%;
     font-weight: 500;
 }
 
@@ -90,78 +84,66 @@ header {
     width: 50%;
 }
 
-
-/*img画像*/
 .b-commit1 {
     width: 60%;
     right: 0;
 }
 
-
-
-/*新着情報＆newｓの親要素*/
 .news {
     width: 100%;
-    margin-top: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-/*miniピンクと新着情報グレーの親要素*/
 .news-text {
     margin-left: 20%;
+    margin-bottom: 5%;
 }
 
-/*News*/
 .mini-news {
     font-size: 0.9em;
 }
 
-/*新着情報*/
 .news-text1 {
     margin-top: 1%;
-    height: 10vh;
+    height: 2%;
     font-size: 1.1em;
     font-weight: 600;
 }
 
-/*newsのul*/
 .news-topic {
-    width: fit-content;
     font-size: 0.8em;
     text-decoration: none;
     list-style: none;
-    margin: 0 auto;
     text-align: left;
     padding-left: 0;
+    margin-left: 15%;
 }
 
-/*ボタンピンク*/
 .btn {
-    border-radius: 20vw;
+    border-radius: 10px;
     display: inline-block;
-    width: 7vw;
+    width: 70px;
     padding: 0.2vh;
     box-sizing: border-box;
     background-color: rgb(199, 21, 131);
     text-decoration: none;
     text-align: center;
-    margin: 1vw 3vh;
+    margin: 1% 3%;
 }
 
-/*newsのli*/
 .n-list1,
 .n-list2,
 .n-list3,
 .n-list4,
 .n-list5 {
-    width: 60vw;
+    width: 80%;
     border-bottom: 1px solid gray;
     list-style: none;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: 500;
-    margin-bottom: 5px;
 }
 
-/*newsのliのa*/
 .s-news1,
 .s-news2,
 .s-news3,
@@ -171,65 +153,62 @@ header {
     color: white;
 }
 
-/*newsの上下太いライン*/
 .n-list0 {
-    width: 60vw;
+    width: 80%;
     border-bottom: 2px solid rgb(110, 109, 109);
 }
 
 .n-list6 {
-    width: 60vw;
+    width: 80%;
     border-top: 2px solid rgb(110, 109, 109);
     margin-top: 1.5%;
 }
 
-/*about内全ての親要素*/
 .about {
-    height: 65vh;
+    width: 100%;
+    height: 50%;
     background-color: rgb(247, 245, 245);
-    margin-top: 8vh;
+    margin-top: 8%;
+    margin-bottom: 10%;
     display: block;
 }
 
-/*aboutの文字ピンク*/
 .mini-about {
     font-size: 0.9em;
     text-align: center;
-    transform: translateY(2vh);
+    transform: translateY(2.5em);
 }
 
-/*aboutの文字グレーTachnology × caoaching*/
 .about-text1 {
-    margin-top: 1%;
+    margin-top: 4%;
     text-align: center;
     font-size: 1.1em;
     font-weight: 600;
-    margin-bottom: 7vh;
-    transform: translateY(2vh);
+    margin-bottom: 7%;
 }
 
-/*aboutのimgの親要素*/
 .love {
     width: 30%;
     display: flex;
 }
 
-/*aboutのimg*/
 .b-love {
     width: 100%;
 }
 
-/*aboutテキスト文字の親要素*/
 .about-text2 {
+    width: 100%;
+    height: 40%;
     font-size: 1em;
     font-weight: 600;
     display: flex;
     justify-content: center;
-    gap: 12%;
+    gap: 12%;    
     box-sizing: border-box;
+    margin-bottom: 10%;
+    transform: translateY(-10%);
 }
 
-/*aboutテキスト*/
 .about-estra1 {
     width: 30%;
     line-height: 1.5em;
@@ -237,34 +216,32 @@ header {
 
 .service1 {
     display: block;
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-/*ミニピンク見出しservice*/
 .mini-service {
     font-size: 0.9em;
-    margin-left: 10%;
+    margin-left: 12%;
+    margin-top: 10%;
 }
 
-/*見出しグレーservice*/
 .service-text {
     font-size: 1.1em;
     font-weight: 600;
+    margin-left: 12%;
     margin-top: 1%;
-    margin-bottom: 3%;
-    margin-left: 10%;
 }
-/*教育事業SVG*/
+
 .service2 {
     width: 100%;
-    height: 45%;
     display: grid;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-content: center;
+    margin-bottom: 15%;
 }
 
-/*sample画像right大*/
 .i-sample1 {
     width: 450px;
     height: 300px;
@@ -279,7 +256,7 @@ header {
     height: 100px;
     position: relative;
     top: 7%;
-    left: 35%;
+    left: 38%;
 }
 
 .sample2 {
@@ -287,18 +264,18 @@ header {
     font-weight: 600;
     text-align: center;
     position: absolute;
-    left: 25%;
+    left: 33%;
     margin-top: 4%;
     color: white;
 }
 
 .sample3 {
-    width: 32%;
-    height: 12%;
+    width: 20%;
+    height: 5%;
     position: absolute;
     font-weight: 200;
-    font-size: 0.9em;
-    left: 14%;
+    font-size: 0.8em;
+    left: 25%;
     margin-top: 7%;
     color: white;
 }
@@ -325,18 +302,18 @@ header {
     font-weight: 600;
     position: absolute;
     right: 30%;
-    margin-top: -8%;
+    margin-top: -5%;
     color: white;
 }
 
 .sample6 {
-    width: 24%;
-    height: 25%;
+    width: 16%;
+    height: 4%;
     position: absolute;
     font-weight: 200;
-    font-size: 0.9em;
-    right: 14%;
-    margin-top: -5%;
+    font-size: 0.8em;
+    right: 23%;
+    margin-top: -3%;
     color: white;
 }
 
@@ -348,7 +325,7 @@ header {
     box-sizing: border-box;
 }
 
-.sample4 {
+.sample7 {
     width: 100px;
     height: 100px;
     position: relative;
@@ -356,57 +333,57 @@ header {
     right: -5%;
 }
 
-.sample5 {
+.sample8 {
     width: auto;
     font-weight: 600;
     position: absolute;
     right: 30%;
-    margin-top: -8%;
+    margin-top: -5%;
     color: white;
 }
 
-.sample6 {
-    width: 24%;
-    height: 25%;
+.sample9 {
+    width: 16%;
+    height: 4%;
     position: absolute;
     font-weight: 200;
-    font-size: 0.9em;
-    right: 14%;
-    margin-top: -5%;
+    font-size: 0.8em;
+    right: 23%;
+    margin-top: -3%;
     color: white;
 }
 
 /*text-blogの親要素*/
 .blog {
     width: 100%;
-    height: 95vh;
     background-color: rgb(247, 245, 245);
     margin-top: 10%;
-    display: block;
-    margin-bottom: 5%;
-    box-sizing: border-box;
+    margin-bottom: 10%
+}
+
+.blog-text1 {
+    height: 20%;
+    margin-left: 15%;
+    display: grid;
 }
 
 /*見出しピンクblog*/
 .mini-blog {
-    height: 5vh;
+    margin-top: 5%;
     font-size: 0.9em;
-    margin-left: 10%;
-    transform: translateY(4vh);
 }
 
 /*見出しグレーblog*/
 .text-blog {
-    height: 15vh;
     font-size: 1.1em;
     font-weight: 600;
-    margin-left: 10%;
-    transform: translateY(3vh);
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
 
 .blog-list {
     width: 100%;
-    height: 60vh;
+    height: 50%;
     display: grid;
     grid-column-gap: 10px;
     grid-row-gap: 0px;
@@ -417,7 +394,7 @@ header {
 
 .blog-A {
     width: 280px;
-    height: 300px;
+    height: 320px;
     background-color: white;
     grid-area: 1 / 1 / 2 / 2;
     border-radius: 12px;
@@ -446,7 +423,7 @@ header {
 }
 
 .left-text {
-    width: 80%;
+    width: 75%;
     font-size: 0.9em;
     font-weight: 700;
     margin: 7% auto auto auto;
@@ -457,6 +434,7 @@ header {
     justify-content: space-around;
     margin-top: 10%;
 }
+
 .coachtech1 {
     font-size: 0.8em;
     font-weight: 500;
@@ -469,7 +447,7 @@ header {
 
 .blog-B {
     width: 280px;
-    height: 300px;
+    height: 320px;
     background-color: white;
     grid-area: 1 / 2 / 2 / 3;
     border-radius: 12px;
@@ -497,7 +475,7 @@ header {
 }
 
 .middle-text {
-    width: 80%;
+    width: 75%;
     font-size: 0.9em;
     font-weight: 700;
     margin: 7% auto auto auto;
@@ -521,7 +499,7 @@ header {
 
 .blog-C {
     width: 280px;
-    height: 300px;
+    height: 320px;
     background-color: white;
     grid-area: 1 / 3 / 2 / 4;
     border-radius: 12px;
@@ -549,7 +527,7 @@ header {
 }
 
 .right-text {
-    width: 80%;
+    width: 75%;
     font-size: 0.9em;
     font-weight: 700;
     margin: 7% auto auto auto;
@@ -575,9 +553,8 @@ header {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 6%;
-    margin-bottom: 5%;
-
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .page-list {
@@ -590,7 +567,7 @@ header {
     border-radius: 30px;
     font-size: 0.9em;
     font-weight: 700;
-} 
+}
 
 .page-list:hover {
     background: rgb(199, 21, 131);
@@ -598,31 +575,29 @@ header {
 }
 
 .company-text {
-    height: 12vh;
-    display: block;
-    box-sizing: border-box;
-    position: relative;
+    display: grid;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 /*ミニピンク見出しCompany*/
 .mini-company {
-    height: 32%;
-    font-size: 0.9em
-    
-    
+    font-size: 0.9em;
+    margin-bottom: 2%;
 }
 
 /*見出しグレーservice*/
 .company-text {
     font-size: 1.1em;
     font-weight: 600;
-    top: 5%;
+    margin-top: 3%;
     margin-left: 20%;
 }
 
 .table-company {
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .c-overview {
@@ -651,8 +626,8 @@ header {
     font-size: 1.5em;
     font-weight: 500;
     display: flex;
-    margin-bottom: 10%;
-    
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .recruitment {
@@ -660,10 +635,9 @@ header {
     height: 50%;
     background-image: url(../img/recruit.png);
     text-align: center;
-    
 }
 
-.a-recruitment{
+.a-recruitment {
     width: 100%;
     height: 100%;
     display: block;
@@ -686,41 +660,45 @@ header {
     color: white;
     margin-top: 20%;
     margin-bottom: 20%;
+    box-sizing: border-box;
 }
 
 .form {
     display: block;
     width: 100%;
-    height: 30vh;
+    height: 45%;
     margin-top: 4%;
     margin-bottom: 5%;
     font-size: 0.9em;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .p-form {
+    display: block;
     width: 100%;
-    height: 4vh;
-
+    height: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .form-btn {
     top: 26%;
     display: block;
     width: 100%;
-    height: 30vh;
     position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 
 .btn-line {
     position: absolute;
-    top: -23%;
+    top: -60%;
     left: 50%;
     background: rgb(199, 21, 131);
     width: 2px;
-    height: 20%;
-    transform: translateX();
+    height: 50%;
     bottom: 5%;
 }
 
@@ -735,19 +713,18 @@ header {
     font-size: 0.9em;
     font-weight: 700;
     box-shadow: 0px 3px 0px 3px rgb(138, 15, 91);
-    
 }
- 
+
 .f-btn::before {
-content: "";
-position: absolute;
-top: 50%;
-left: 15px;
-background: url(../img/mailicon.svg) no-repeat;
-background-size: cover;
-width: 30px;
-height: 30px;
-transform: translateY(-50%);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    background: url(../img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
 }
 
 .f-btn:hover {
@@ -755,7 +732,7 @@ transform: translateY(-50%);
     color: rgb(199, 21, 131);
     background-image: none;
 }
- 
+
 .maili-i {
     background-color: rgb(153, 17, 101);
 }
@@ -808,4 +785,3 @@ transform: translateY(-50%);
 .company-text {
     color: rgb(104, 102, 102);
 }
-
