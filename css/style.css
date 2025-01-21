@@ -1,6 +1,7 @@
 /*画面全体のstyle*/
 .estra_body {
     width: 100%;
+    margin: 0;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     color: rgb(122, 121, 121);
 }
@@ -9,7 +10,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    margin: 20px 10px 4px 10px;
+    margin: 20px 0 4px 0;
 }
 /*logo全体のstyle*/
 .estra {
@@ -19,7 +20,7 @@
 /*logoのstyle*/
 .estra_logo {
     width: 100px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 /*ナビゲーションメニュー全体のstyle*/
 .nav {
@@ -65,7 +66,7 @@
     font-weight: bolder;
     font-size: 3.2rem;
     position: absolute;
-    left: 25%;
+    left: 22%;
     color: rgb(199, 21, 131);
     font-family: 'Indie Flower';
     margin: 4% 0 0 0;
@@ -76,7 +77,7 @@
     position: absolute;
     font-size: 1.1rem;
     font-weight: 900;
-    left: 25%;
+    left: 22%;
     top: 44%;
     color: rgb(199, 21, 131);
     font-family: 'Noto Sans JP', sans-serif;
@@ -86,7 +87,7 @@
 .company-info {
     position: absolute;
     font-size: 0.9rem;
-    left: 25%;
+    left: 22%;
     top: 48%;
     font-weight: 500;
     color: rgb(122, 121, 121);
@@ -158,7 +159,7 @@
     border-radius: 10px;
     display: inline-block;
     width: 70px;
-    padding: 0.2vh;
+    padding: 2px;
     box-sizing: border-box;
     background-color: rgb(199, 21, 131);
     text-decoration: none;
@@ -190,32 +191,34 @@
     margin-top: 1.5%;
 }
 /*about全体のstyle*/
-.company-overview {
+.company-over-view {
     width: 100%;
     background-color: rgb(247, 245, 245);
-    margin: 8% auto 10% auto;
+    margin: 15% auto;
     display: block;
 }
 /*about文字のstyle*/
-.overview-title {
+.over-view-title {
     width: 100%;
     font-size: 0.9rem;
     text-align: center;
     color: rgb(199, 21, 131);
-    margin: 10px 10px 25px 10px;
+    margin: 2px;
+    padding-top: 3%;
 }
 /*Technology × coaching文字のstyle*/
-.overview-subtitle {
-    margin: 10px 10px 20px 10px;
+.over-view-sub-title {
+    margin: 2px;
     text-align: center;
     font-size: 1.1rem;
     font-weight: 600;
     color: rgb(104, 102, 102);
+    padding-bottom: 3%;
 }
 /*紹介文＆loveイメージ全体のstyle*/
 .company-details {
     width: 100%;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -787,6 +790,227 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 767px) {
+    /*画面全体のstyle*/
+    .estra_body {
+        width: 90%;
+        margin: 4px auto;
+    }
+    /*headerのstyle*/
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    /*logo全体のstyle*/
+    .estra {
+        width: 100%;
+        text-align: left;
+    }
+    /*logoのstyle*/
+    .estra_logo {
+        margin: 0;
+    }
+    /*ナビゲーションメニュー全体のstyle*/
+    .nav {
+        width: 100%;
+    }
+    /*ナビゲーションメニューliのstyle*/
+    .list-item {
+        margin-right: 4%;
+    }
+    /*ナビゲーションメニューliの右端style*/
+    .list-item-end {
+        margin-right: 10px;
+    }
+    /*Commitの文字style*/
+    .mission-statement {
+        font-size: 1.3rem;
+        left: 13%;
+        line-height: 1.3rem;
+        margin-top: 3%;
+    }
+    /*すべての人の文字全体のstyle*/
+    .commitment-jp {
+        font-size: 0.7rem;
+        left: 13%;
+        top: 45%;
+        line-height: 1.2rem;
+    }
+    /*会社紹介文のstyle*/
+    .company-info {
+        font-size: 0.7rem;
+        left: 13%;
+        top: 50%;
+    }
+    /*イメージ画像全体のstyle*/
+    .top-img-folder {
+        width: 70%;
+    }
+    /*イメージ画像のstyle*/
+    .first-view-img {
+        width: 100%;
+    }
+    /*news文字のstyle*/
+    .news-title {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+    /*新着情報の文字のstyle*/
+    .news-description {
+        width: 90%;
+        font-size: 1rem;
+    }
+    /*news全体のstyle*/
+    .news-list {
+        width: 100%;
+        padding: 10px;
+    }
+    /*ulのstyle*/
+    .news-topic {
+        padding: 0;
+    }
+    /*紹介文＆loveイメージ全体のstyle*/
+    .company-details {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    /*紹介文のstyle*/
+    .company-mission {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+    /*loveのイメージ全体のstyle*/
+    .company-image-container {
+        width: 100%;
+    }
+    /*service文字のstyle*/
+    .service-title {
+        width: 90%;
+    }
+    /*サービス内容文字のstyle*/
+    .service-description {
+        width: 90%;
+        font-size: 1rem;
+    }
+    /*教育事業全体のstyle*/
+    .service-details {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .blog-item-left,
+    .blog-item-center {
+        margin-bottom: 10px;
+    }
+    /*教育事業右側上*/
+    .service-item-right-top {
+        height: 200px;
+    }
+    /*右側上サンプルテキスト文字のstyle*/
+    .sample-description-right-top {
+        width: 40%;
+    }
+    /*右側下教育事業全体のstyle*/
+    .service-item-right-low {
+        height: 200px;
+    }
+    /*右側下サンプルテキスト文字のstyle*/
+    .sample-description-right-low {
+        width: 40%;
+    }
+    /*イメージカード全体のstyle*/
+    .blog-list-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /*一覧ページへbutton全体のstyle*/
+    .list-link-container {
+        margin: 5% auto;
+    }
+    /*Company文字のstyle*/
+    .company-title {
+        width: 90%;
+    }
+    /*会社概要の文字のstyle*/
+    .company-description {
+        width: 90%;
+    }
+    /*テーブル全体のstyle*/
+    .company-profile {
+        width: 90%;
+        margin: 10px auto 18% auto;
+    }
+    /*採用情報＆社員インタビュー全体のstyle*/
+    .recruitment-section {
+        height: 500px;
+        flex-direction: column;
+        margin: 10% auto;
+    }
+    /*採用情報のstyle*/
+    .recruitment-link {
+        width: 100%;
+        height: 220px;
+    }
+    /*採用情報文字のstyle*/
+    .link-recruitment-info {
+    margin-top: 25%;
+    }
+    /*社員インタビューのstyle*/
+    .employee-interviews {
+        width: 100%;
+        height: 220px;
+    }
+    /*社員インタビュー文字のstyle*/
+    .link-interview {
+        margin-top: 25%;
+    }
+    /*お問い合わせはこちら文字＆ボタン全体のstyle*/
+    .contact-form-section {
+        display: block;
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        font-size: 0.9rem;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    /*お問い合わせはこちらから文字のstyle*/
+    .contact-form-heading {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+        margin: 2% auto;
+    }
+    /*お問い合わせボタン*/
+    .contact-form-button-container {
+        top: 26%;
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    /*ボタン上のライン*/
+    .button-decoration-line {
+        position: absolute;
+        left: 50%;
+        background: rgb(199, 21, 131);
+        width: 2px;
+        height: 50%;
+        bottom: 5%;
+    }
+    /*ボタンのstyle*/
+    .contact-button {
+        padding: 2px;
+    }
+    /*画面一番下の文字style*/
+    .copyright-section {
+        padding: 2px;
+    }
 }
