@@ -1,9 +1,6 @@
-### html
+<div align="center">
 
 <img src="https://img.shields.io/badge/-Html5-pink.svg?logo=html5&style=plastic">　<img src="https://img.shields.io/badge/-CSS3-blue.svg?logo=css3&style=plastic">
-
-
-<div align="center">
 
 ### 勉強のために作成しました。
 
