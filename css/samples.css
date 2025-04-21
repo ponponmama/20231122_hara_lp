@@ -1,0 +1,62 @@
+/* 全体のスタイル */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* コンテナのスタイル */
+.samples-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* タイトルのスタイル */
+.samples-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+/* ギャラリーのスタイル */
+.samples-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* 各画像アイテムのスタイル */
+.sample-item {
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.sample-item:hover {
+    transform: translateY(-5px);
+}
+
+/* 画像のスタイル */
+.sample-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .samples-container {
+        padding: 10px;
+    }
+    
+    .sample-item {
+        max-width: 100%;
+    }
+} 
