@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/-Html5-pink.svg?logo=html5&style=plastic">　<img src="https://img.shields.io/badge/-CSS3-blue.svg?logo=css3&style=plastic">
 
-# スクールのお勉強画面
+# 勉強のために作成しました。
 
 <div align="center">
 
@@ -16,4 +16,4 @@
 
 </div>
 
-**お勉強のために作成しました。メディアクエリも含めた html です.**
+**メディアクエリも含めた html です.**
