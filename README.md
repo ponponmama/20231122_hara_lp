@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/-Html5-pink.svg?logo=html5&style=plastic">　<img src="https://img.shields.io/badge/-CSS3-blue.svg?logo=css3&style=plastic">
 
-# 勉強のために作成しました。
+### 勉強のために作成しました。
 
 <div align="center">
 
