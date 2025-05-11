@@ -50,7 +50,7 @@
 }
 /*logoのstyle*/
 .estra_logo {
-    width: 40%;
+    width: 30%;
 }
 /*ナビゲーションメニュー全体のstyle*/
 .nav {
@@ -656,6 +656,7 @@
     }
     /*logoのstyle*/
     .estra_logo {
+        width: 25%;
         margin: 0;
     }
     /*ナビゲーションメニュー全体のstyle*/
@@ -666,12 +667,12 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        margin: 1% auto;
+        margin: 0.5% auto;
     }
     /*ナビゲーションメニューliのstyle*/
     .list-item {
-        padding: 2px 10px;
-        margin: 2px;
+        padding: 2px 4px;
+        margin: 0.5%;
     }
 
     .nav-link {
@@ -771,7 +772,7 @@
     .company-mission {
         width: 90%;
         margin: 10px auto;
-        padding: 10px;
+        line-height: 1.5rem;
     }
     /*loveのイメージ全体のstyle*/
     .company-image-container {
