@@ -20,4 +20,8 @@
     <img src="sample4.png" alt="スクールのお勉強画面">
 </p>
 
+<p align="center">
+    <img src="sample5.png" alt="スクールのお勉強画面">
+</p>
+
 <p align="center"><strong>メディアクエリも含めた html です.</strong></p>
