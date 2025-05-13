@@ -10,7 +10,7 @@
 }
 
 .indie-flower {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower';
 }
 
 .font-pink {
@@ -30,7 +30,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kaku Gothic New';
     color: rgb(122, 121, 121);
 }
 /*headerのstyle*/
@@ -39,7 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0.1%;
+    margin: 1% auto 0.1%;
     padding: 20px 15px 4px 15px;
 }
 /*logo全体のstyle*/
@@ -48,7 +48,7 @@
 }
 /*logoのstyle*/
 .estra_logo {
-    width: 35%;
+    width: 70%;
     padding: 2px 10px;
 }
 /*ナビゲーションメニュー全体のstyle*/
@@ -76,51 +76,55 @@
 }
 /*最初の文字＆イメージ全体のstyle*/
 .top_content {
-    display: flex;
-    position: relative;
     width: 100%;
+    height: 500px;
     margin: 0.5% auto;
+    position: relative;
 }
+
+.top_content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55%;
+    height: 100%;
+    background-image: url(../img/first_view.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: 1;
+}
+
 /*文字全体のstyle*/
 .commit_message {
-    width: 45%;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5% 1% 1% 1%;
+    margin: 0;
+    margin-left: auto;
+    text-align: left;
+    position: relative;
+    z-index: 2;
 }
 /*Commitの文字style*/
 .mission-statement {
     width: 100%;
-    font-size: 4.4rem;
-    line-height: 4.6rem;
+    font-size: 4rem;
+    line-height: 4rem;
     margin: 0;
-    margin: 5% auto 1%;
+    margin-bottom: 2%;
 }
 /*すべての人の文字全体のstyle*/
 .commitment-jp {
-    font-size: 1.6rem;
-    top: 45%;
-    font-family: 'Noto Sans JP', sans-serif;
-    padding: 2px;
+    font-size: 1.4rem;
 }
 /*会社紹介文のstyle*/
 .company-info {
-    font-size: 1.3rem;
-    top: 54%;
-    padding: 2px;
-    margin: 0;
-}
-
-.mission-statement,
-.commitment-jp,
-.company-info {
-    position: absolute;
-    left: 20.5%;
-}
-/*イメージ画像全体のstyle*/
-.top-img-folder {
-    width: 55%;
-}
-/*イメージ画像のstyle*/
-.first-view-img {
-    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
 }
 /*news全体のstyle*/
 .news-section {
@@ -620,45 +624,42 @@
     }
 
     .top_content {
-        margin: 3% 0;
-        flex-direction: column;
-        align-items: center;
+        width: 100%;
+        height: 340px;
+    }
+
+    .top_content::before {
+        width: 100%;
+        opacity: 0.4;
     }
 
     .commit_message {
         width: 100%;
-        z-index: 2;
+        height: 100%;
+        justify-content: flex-start;
+        padding: 0;
+        margin: 0.1% 0;
     }
 
     .mission-statement {
-        font-size: 1.8rem;
+        width: 100%;
+        font-size: 2rem;
         line-height: 2rem;
-        margin-top: 1%;
-        top: 5%;
-        left: 15%;
+        padding: 7% 0 38% 0;
+        text-align: center;
     }
 
     .commitment-jp {
+        width: 100%;
+        text-align: center;
         font-size: 0.8rem;
-        top: 68%;
-        left: 24%;
     }
 
     .company-info {
+        width: 100%;
         font-size: 0.6rem;
-        top: 75%;
-        left: 29%;
+        text-align: center;
         color: rgb(51, 50, 50);
-    }
-
-    .top-img-folder {
-        width: 100%;
-    }
-
-    .first-view-img {
-        width: 100%;
-        height: 250px;
-        opacity: 0.5;
     }
 
     .title {
@@ -829,7 +830,7 @@
 @media screen and (min-width: 540px) and (max-width: 767px) {
     .header {
         flex-direction: column;
-        padding: 2px;
+        padding: 10px;
     }
 
     .estra {
@@ -859,25 +860,35 @@
         font-size: 1.2rem;
     }
 
+    .top_content {
+        height: 230px;
+    }
+
+    .commit_message {
+        width: 80%;
+        height: 100%;
+        padding: 6% 1% 1% 1%;
+        justify-content: flex-start;
+        margin: 0;
+        margin-left: auto;
+        text-align: left;
+    }
+
     .mission-statement {
-        font-size: 1.6rem;
-        left: 23%;
+        width: 100%;
+        font-size: 1.8rem;
         line-height: 1.8rem;
-        padding-top: 10px;
-        margin-top: 3%;
     }
 
     .commitment-jp {
-        font-size: 0.5rem;
-        left: 23%;
-        top: 45%;
-        line-height: 1rem;
+        width: 100%;
+        font-size: 0.6rem;
+        line-height: 0.8rem;
     }
 
     .company-info {
-        font-size: 0.4rem;
-        left: 23%;
-        top: 54%;
+        width: 100%;
+        font-size: 0.5rem;
     }
 
     .news-section {
@@ -1083,24 +1094,27 @@
         font-size: 1.3rem;
     }
 
+    .top_content {
+        width: 100%;
+        height: 380px;
+    }
+
+    .commit_message {
+        width: 80%;
+        padding: 4% 1% 1% 1%;
+    }
+
     .mission-statement {
-        left: 21.5%;
-        padding-top: 10px;
-        margin-top: 2%;
-        font-size: 2.4rem;
-        line-height: 2.5rem;
+        font-size: 3.2rem;
+        line-height: 3.2rem;
     }
 
     .commitment-jp {
-        left: 21.5%;
-        top: 40%;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
     .company-info {
-        left: 21.5%;
-        top: 46%;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .title {
